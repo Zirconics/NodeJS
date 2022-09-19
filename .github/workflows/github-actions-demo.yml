@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "SHEEEESH"
+      - run: npm ci
+      - run: npm test
