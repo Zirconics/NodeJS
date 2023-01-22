@@ -6,6 +6,6 @@ test('one and two is three', () => {
 });
 
 test('one and nine is ten', () => {
-    expect(sum(1,2)).toBe(10);
+    expect(sum(1,9)).toBe(10);
     
 })

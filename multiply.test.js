@@ -6,6 +6,6 @@ test('one times two is two', () => {
 });
 
 test('five times five is 25', () => {
-    expect(sum(1,2)).toBe(25);
+    expect(multiply(5,5)).toBe(25);
     
 })
